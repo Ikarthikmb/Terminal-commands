@@ -1,0 +1,912 @@
+5 October 2019
+    1  cd
+    2  oing google.com
+    3  ping google.com
+     4  sudo apt-get install update
+    5  sudo apt-get install upgrade
+    6  ping google.com
+    7  sudo -H gedit /etc/profile.d/proxy.sh
+    8  sudo -H nano /etc/profile.d/proxy.sh
+    9  sudo -H gedit /etc/profile.d/proxy.sh
+   10  ping google.com
+   11  sudo -H gedit /etc/profile.d/proxy.sh
+   12  ping google.com
+   13  sudo -H gedit /etc/profile.d/proxy.sh
+   14  cd /etc/apt/apt.conf
+   15  where /etc/apt/apt.conf
+   16  locate /etc/apt/apt.conf
+   17  /etc/apt/apt.conf
+   18  /etc/apt/
+   19  cd /etc/apt/
+   20  ls
+   21  apt.conf
+   22  gedit apt .conf
+   23  gedit apt.conf
+   24  cd
+   25  ping google.com
+   26  exit
+   27  ping google.com
+   28  sudo apt-get install update
+   29  su psswd
+   30  sudo apt-get update
+   31  sudo apt-get install update
+   32  sudo apt-get update
+   33  sudo apt-get upgrade
+   34  cd
+   35  deb http://archive.getdeb.net/ubuntu xenial-getdeb apps
+   36  sudo apt-get deb
+   37  sudo apt install deb
+   38  sudo apt-get install deb
+   39  sudo apt-get deb
+   40  exit
+   41  wget -q -O- http://archive.getdeb.net/getdeb-archive.key | sudo apt-key add -
+   42  sudo dpkg -i getdeb-repository_0.1-1~getdeb1_all.deb
+   43  sudo add-apt-repository ppa:tualatrix/ppa
+   44  sudo apt-get install ubuntu-tweak
+   45  wget -q -O - http://archive.getdeb.net/getdeb-archive.key | sudo apt-key add -
+   46  sudo apt-get install ubuntu-tweak
+   47  sudo sh -c 'echo "deb http://archive.getdeb.net/ubuntu xenial-getdeb apps" >> /etc/apt/sources.list.d/getdeb.list'
+   48  wget -q -O - http://archive.getdeb.net/getdeb-archive.key | sudo apt-key add -
+   49  sudo sh -c 'echo "deb http://archive.getdeb.net/ubuntu xenial-getdeb apps" >> /etc/apt/sources.list.d/getdeb.list'
+   50  sudo add-apt-repository ppa:tualatrix/ppa
+   51  sudo apt-get update
+   52  sudo apt-get install ubuntu-tweak
+   53  sudo add-apt-repository ppa:tualatrix/next
+   54  sudo apt-get install ubuntu-tweak
+   55  sudo apt-get update && sudo apt-get install gimp
+   56  sudo apt-get wget
+   57  wget -q -O - http://archive.getdeb.net/getdeb-archive.key | sudo apt-key add -
+   58  wget -q -O - http://archive.getdeb.net/getdeb-archive.key
+   59  sudo apt-key add -
+   60  sudo apt-key add
+   61  exit
+   62  sudo apt-get install ubuntu-restricted-extras
+   63  sudo apt-get install ubuntu-tweak
+   64  sudo apt-get update
+   65  sudo apt-get vlc
+   66  sudo apt install vlc
+   67  sudo apt-get install ubuntu-restricted-extras vlc compizconfig-settings-manager catfish audacious wine startupmanager firestarter thunderbird localepurge emerald rar unrar-free flashplugin-nonfree virtualbox-ose gparted xchat
+   68  sudo apt-get install ubuntu-restricted-extras
+   69  sudo python setup.py install
+   70  sudo apt install gnome-shell-extensions
+   71  sudo apt install gnome-tweak-tool
+   72  sudo apt install gnome-shell-extensions
+   73  sudo apt-get install chrome-gnome-shell
+   74  sudo apt-get update
+   75  sudo apt-get install chrome-gnome-shell
+   76  GNOME Shell Integration 8.2.1
+   77  sudo add-apt-repository universe
+   78  sudo apt install gnome-tweak-tool
+   79  gnome-tweaks
+   80  gnome-shell --version
+   81  sudo add-apt-repository ppa:teejee2008/ppa
+   82  sudo apt-get update
+   83  sudo apt-get install conky-manager
+   84  sudo apt install conky-manager
+   85  sudo apt-get install conky-manager
+   86  wget --no-check-certificate https://github.com/teejee2008/conky-manager/releases/download/v2.4/conky-manager-v2.4-amd64.run
+   87  chmod +x conky-manager-v2.4-amd64.run
+   88  sudo ./conky-manager-v2.4-amd64.run
+   89  conky-manager
+   90  sudo add-apt-repository ppa:tualatrix/ppa
+   91  sudo apt-get update
+   92  sudo apt-get install ubuntu-tweak
+   93  sudo apt-get update
+   94  wget -q -O - http://archive.getdeb.net/getdeb-archive.key | sudo apt-key add -
+   95  sudo sh -c 'echo "deb http://archive.getdeb.net/ubuntu xenial-getdeb apps" >> /etc/apt/sources.list.d/getdeb.list'
+   96  sudo apt upgrade
+   97  ssudo apt install ubuntu-restricted-extras
+   98  sudo apt install ubuntu-restricted-extras
+   99  sudo install libdvd-pkg
+  100  sudo apt install libdvd-pkg
+  101  sudo dpkg-reconfigure libdvd-pkg
+  102  sudo apt install flatpak
+  103  sudo apt install gnome-all
+  104  sudo apt install gnome-software-plugin-flatpak
+  105  sudo apt install octave
+  106  sudo apt install chrome-gnome-shell
+  107  sudo apt-get update
+  108  gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'
+  109  uninstall conky-manager
+  110  rm conky-manager
+  111  sudo apt-get --purge remove conky conky-all
+  112  apt killall
+  113  sudo killall
+  114  sudo killall -l
+  115  apt killall
+  116  sudo apt install gnome-control-center gnome-online-accounts
+  117  sudo apt autoremove
+  118  gnome-control-center
+  119  sudo apt install --install-recommends winehq-stable
+  120  sudo apt-add-repository 'deb https://dl.winehq.org/wine-builds/ubuntu/ bionic main'
+  121  sudo apt install playonlinux
+  122  playonlinux
+  123  su
+  124  apt passwd root
+  125  su
+  126  exit
+  127  history
+
+
+6 October 2019
+Problem: 
+Installed and updated to ubuntu 18.04 from ubuntu 16.04 yet the desktop hasn’t changed to new Gnome desktop
+Web Answers:
+
+After upgrade ubuntu 18.04 changed from GUI to Terminal
+http://askubuntu.com/questions/1032838/ddg#1032846
+Your OS is not properly installed. Try the following:
+exec sudo -i
+dpkg --configure -a
+apt-get -f install
+apt-get update
+apt-get dist-upgrade
+apt-get install --reinstall ubuntu-desktop
+apt-get autoremove
+apt-get clean
+Day Commands
+  128 exec sudo -i
+  129  r
+  130  gnome-shell --replace & disown
+  131  unity
+  132  sudo su
+  133  snap install gyd1
+  134  add-apt-repository ppa:oguzhaninan/stacer
+  135  sudo add-apt-repository ppa:oguzhaninan/stacer
+  136  apt install youtube-dl
+  137  sudo apt install youtube-dl
+  138  sudo snap install gydl
+  139  sudo apt-get autoremove
+  140  sudo -H pip install --upgrade youtube-dl
+  141  sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl
+  142  sudo apt-get gnome-shell-extensions
+  143  sudo apt-get install gnome-shell-extensions
+  144  sudo apt-get install conky-manager
+  145  sudo apt-get install gnome-shell
+  146  sudo add-apt-repository ppa:teejee2008/ppa
+  147  apt autoremove
+  148  sudo apt autoremove
+  149  sudo apt-get insstall wmctrl
+  150  sudo apt-get install wmctrl
+  151  wmctrl -k on
+  152  sudo wget -q "http://deb.playonlinux.com/public.gpg" -O- | sudo apt-key add -
+  153  sudo wget http://deb.playonlinux.com/playonlinux_precise.list -O /etc/apt/sources.list.d/playonlinux.list
+  154  sudo apt-get update
+  155  sudo apt-get install conky-manager
+  156  sudo add-apt-repository ppa:teejee2008/ppa
+  157  apt-get autoremove
+  158  sudo apt-get autoremove
+  159  sudo apt-get install htop
+  160  sudo apt-get update
+  161  htop
+  162  sudo apt-get conky-manager
+  163  sudo add-apt-repository ppa:teejee2008/ppa
+  164  sudo apt install conky-all
+  165  conky
+  166  conky -d
+  167  sudo add-apt-repository --yes ppa:js-reynaud/kikad-5
+  168  sudo add-apt-repository --yes ppa:js-reynaud/kikad
+  169  sudo add-apt-repository --yes ppa:js-reynaud/kicad-5
+  170  sudo apt update
+  171  sudo apt install kicad
+  172  ssh root@your_server_ip
+  173  su
+  174  ssh root
+  175  apt-get psswd
+  176  apt-get passwd
+  177  sudo apt passwd
+  178  su
+  179  sudo passwd root
+  180  su
+  181  ssh root@qarthik
+  182  sudo apt-get vmware
+  183  sudo apt-get VMware
+  184  wget -O ~/vmware.bin https://www.vmware.com/go/getWorkstation-linux
+  185  sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl
+  186  apt install youtube dl
+  187  sudo apt-get install youtube dl
+  188  conky -q -c ~/.conky/TC-100/tc100-blue
+  189  conky -q -c ~/.conky/TC-100/tc100
+  190  conky -q -c ~/.conky/TC-100/tc100-black
+  191  conky -q -c ~/.conky/TC-100/tc100-red
+  192  conky -q -c ~/.conky/TC-100/tc100
+  193  conky -q -c
+  194  conky -q -c ~/.conky/TC-100/tc100 rm
+  195  rm conky -q -c ~/.conky/TC-100/tc100 rm
+  196  conky -q -c ~/.conky/TC-100/tc100 rm --help
+  197  conky --help
+  198  conky -h
+  199  conky -d
+  200  sudo apt-get --purge remove conky  conky -q -c ~/.conky/TC-100/tc100
+  201  conky -d
+  202  kill -9 16813
+  203  kill -9 5001
+  204  kill -9 4786
+  205  kill -9 4617
+  206  kill -9 6141
+  207  kill -9 4970
+  208  kill -9 3152
+  209  kill -9 3346
+  210  kill -9 8
+  211  kill -9 2919
+  212  kill -9 2981
+  213  kill -9 8479
+  214  conky
+  215  htop
+  216  top
+  217  mkdir -p $(DESTDIR)/usr/share
+  218  mkdir -p $(DESTDIR)/usr/bin
+  219  cp -v conky-colors $(DESTDIR)/usr/bin
+  220  cp -v -r conkycolors $(DESTDIR)/usr/share
+  221  cp -v -r fonts/conkycolors $(DESTDIR)/usr/share/fonts
+  222  ln -fs $(DESTDIR)/usr/share/conkycolors/bin/conkyTask $(DESTDIR)/usr/bin/ct
+  223  chmod +x $(DESTDIR)/usr/share/conkycolors/scripts/*
+  224  chmod +x $(DESTDIR)/usr/share/conkycolors/bin/*
+  225  conky-colors
+  226  conky-colors conkyrc
+  227  sudo apt-get install aptitude python-keyring python-statgrab ttf-ubuntu-font-family hddtemp curl lm-sensors conky-all
+  228  ls
+  229  ls -a
+  230  cd .conky
+  231  ls
+  232  make
+  233  sudo make install conky-colors
+  234  sudo make install conky_colors
+  235  cd downloaded \themes
+  236  cd downloaded\ themes/
+  237  ls
+  238  sudo make install conky_colors
+  239  conky_colors -h
+  240  ls
+  241  cd
+  242  sudo fc-cache-v-f
+  243  udo apt-get install aptitude python-keyring python-statgrab ttf-ubuntu-font-family hddtemp curl lm-sensors conky-all
+  244  sudo apt-get install aptitude python-keyring python-statgrab ttf-ubuntu-font-family hddtemp curl lm-sensors conky-all
+  245  exit
+
+7 October 2019
+  246  umount -l /PATH/OF/BUSY-DEVICE
+  247  sudo apt network-manager restart
+  248  sudo apt network-manager --h
+  249  sudo apt network-manager -h
+  250  sudo apt network-manager restart
+  251  exit
+  252  lspci
+  253  ip
+  254  ipconfig
+  255  ifconfig
+  256  snap changes nextcloud
+  257  sudo snap install nextcloud
+  258  snap changes -h
+  259  snap changes --abs-time
+  260  snap changes
+  261  sudo apt-get chromium
+  262  sudo apt-get install chromium
+  263  wireshark
+  264  kill -9 ~3056
+  265  kill -9 3056
+  266  sudo apt install snapd
+  267  sudo snap install hello-world
+  268  sudo snap install snap-store
+  269  snap install atom
+  270  sudo snap install youtube-dl
+  271  sudo snap install google-cloud-sdk --classic
+  272  history
+
+
+
+10 October 2019
+Root commands: roo@karthik
+    1  toor
+    2  dpkg --configure -a
+    3  apt-get - install
+    4  apt-get -f install
+    5  apt-get update
+    6  apt-get dist-upgrade
+    7  apt-get install --reinstall ubuntu-desktop
+    8  apt-get update --fix-missing
+    9  apt-get autoremove
+   10  apt-get clean
+   11  apt network --restart
+   12  apt network -restart
+   13  apt network-restart
+   14  apt network-manager -restart
+   15  apt network-manager --restart
+   16  history
+   17  After upgrade ubuntu 18.04 changed from GUI to Terminal
+   18  http://askubuntu.com/questions/1032838/ddg#1032846
+   19  Your OS is not properly installed. Try the following:
+   20  exec sudo -i
+   21  dpkg --configure -a
+   22  apt-get -f install
+   23  apt-get update
+   24  apt-get dist-upgrade
+   25  apt-get install --reinstall ubuntu-desktop
+   26  apt-get autoremove
+   27  apt-get clean
+   28  apt-get install --reinstall ubuntu-desktop
+   29  r
+   30  exit
+   31  cd
+   32  apt - upgradde
+   33  apt - upgrade
+   34  apt install openssh-server
+   35  snap install spotify
+   36  home
+   37  exit
+   38  su
+   39  exit
+   40  cd
+   41  exit
+   42  cd /etc/apt
+   43  cp sources.list sources.list.old
+   44  ls
+   45  gedit sources.list
+   46  sudo cp sources.list sources.list.tmp
+   47  sed 's/ubuntuarchive.hnsdc.com/us.archive.ubuntu.com/' sources.list.tmp | sudo tee sources.list
+   48  sudo rm sources.list.tmp
+   49  cd
+   50  exit
+   51  gedit sources.list
+   52  ls
+   53  cd /etc/apt
+   54  ls
+   55  apt.conf.d
+   56  gedit apt.conf.d
+   57  ls
+   58  gedit apt.conf.list
+   59  cd
+   60  history
+
+
+11 October 2019
+  273  sudo apt-get snap
+  274  sudo apt-get install snap
+  275  apt-get update
+  276  sudo snap install tusk
+  277  sudo apt install snapcraft
+  278  sudo apt install snapd
+  279  htop
+  280  sudo rm -rf /usr/share/themes/{Vertex,Vertex-Dark,Vertex-Light,Vertex-Gnome-Shell,Vertex-Gnome-Shell-3.16,Vertex-Cinnamon}
+  281  git clone https://github.com/horst3180/vertex-theme --depth 1 && cd vertex-theme
+  282  login
+  283  sudo restart
+  284  exit
+  285  sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl
+  286  sudo wget https://yt-dl.org/downloads/latest/youtube-dl -O /usr/local/bin/youtube-dl
+  287  set | grep -i proxy
+  288  gksudo gedit /etc/apt/apt.conf.d/40proxy
+  289  sud oapt-get gfsudo
+  290  sudo oapt-get gfsudo
+  291  sudo apt-get gfsudo
+  292  sudo apt-get gksudo
+  293  sudo wget https://yt-dl.org/downloads/latest/youtube-dl -O /usr/local/bin/youtube-dl
+  294  apt install youtube-dl
+  295  sudo apt-get install youtube-dl
+  296  sudo apt install youtube-dl
+  297  sudo apt-get update
+  298  sudo apt-get install youtube-dl
+  299  set | grep -i proxy
+  300  sudo gedit /etc/apt/apt.conf.d/40proxy
+  301  sudo nano /etc/apt/apt.conf.d/40proxy
+  302  sudo apt-get install youtube-dl
+  303  sudo apt-get update
+  304  sudo apt-get uninstall ktube
+  305  youtube-dl -v https://www.youtube.com/watch?v=_PBlykN4KIY&list=RD_PBlykN4KIY&start_radio=1
+  306  /etc/apt/apt.conf
+  307  cd /etc/apt/apt.conf
+  308  cd /etc/apt
+  309  ls
+  310  nano apt.conf.d
+  311  apt.conf.d
+  312  gedit apt.conf.d
+  313  gedit /etc/profile
+  314  cd
+  315  gedit /etc/profile
+  316  sudo apt-get update
+  317  youtube-dl
+  318  youtube-dl https://youtu.be/1fG2SqZ-R5Q?list=PL9B6YR7hJGrPKxHfilH7kEByHXu9MXKi5
+  319  sudo apt-get remove -y youtube-dl
+  320  sudo wget https://yt-dl.org/latest/youtube-dl -O /usr/local/bin/youtube-dl
+  321  sudo apt-get youtube-dl
+  322  sudo apt autoremove
+  323  sudo apt-get install youtube-dl
+  324  sudo apt-getupdate --fix-missing
+  325  sudo apt-get update --fix-missing
+  326  sudo apt-get update
+  327  gksu software-properties-gtk,
+  328  gksu software-properties-gtk
+  329  ksu software-properties-gtk
+  330  sudo apt install gksu
+  331  sudo apt-get update
+  332  sudo apt-get upgrade
+  333  sudo apt-get update --fix-missing
+  334  youtube-dl -version
+  335  youtube-dl --version
+  336  sudp apt-install youtube-dl
+  337  sudo apt-install youtube-dl
+  338  sudo apt-get install youtube-dl
+  339  sudo wget https://yt-dl.org/downloads/latest/youtube-dl -O /usr/local/bin/youtube-dl
+  340  sudo apt-get update
+  341  sudo wget https://yt-dl.org/downloads/latest/youtube-dl -O /usr/local/bin/youtube-dl
+  342  sudo apt-get update
+  343  gksu software-properties-gtk
+  344  sudo apt-get install gksu
+  345  apt-get update or try with --fix-missing?
+  346  sudo apt-get update --fix-missing
+  347  cd /etc/apt
+  348  sudo cp sources.list sources.list.old
+  349  gksu gedit sources.list
+  350  udo nano /etc/default/grub
+  351  cd
+  352  udo nano /etc/default/grub
+  353  sudo nano /etc/default/grub
+  354  sudo update-grub
+  355  youtube-dl https://youtu.be/ZW1glqkIgcw?list=PLF84ABD7D4EBA31C4
+  356  sudo apt autoremove
+  357  sudo apt-get update
+  358  sudo apt-get update --fix-missing
+  359  sudo apt-get install youtube-ddl
+  360  sudo apt-get install youtube-dl
+  361  sudo apt-get update
+  362  sudo apt-get install gksu
+  363  sudo -i
+  364  sudo apt-get update
+  365  exit
+  366  sudo apt-get install youtube-dl
+  367  youtube-dl -version
+  368  youtube-dl --version
+  369  sudo apt-get update
+  370  youtube-dl --version
+  371  sudo apt-get update
+  372  sudo add-apt-repository ppa:graphics-drivers/ppa
+  373  sudo -i
+  374  history
+12 October 2019 - 15 January 2020
+368  ls
+  369  sudo apt-get update
+  370  exit
+  371  ls
+  372  rm day191011
+  373  ls
+  374  cat output.txt
+  375  ls
+  376  mv output.txt files-log.txt
+  377  ls
+  378  cat examples.desktop
+  379  cat examples.desktop  -h
+  380  cat examples.desktop  --help
+  381  cat examples.desktop
+  382  ls
+  383  type youtube-dl.sig
+  384  ls -h
+  385  ls -c
+  386  ls-a
+  387  ls -a
+  388  ls -l
+  389  exit
+  390  youtube-dl -version
+  391  youtube-dl --version
+  392  sudo apt-get update
+  393  youtube-dl --version
+  394  sudo apt-get update
+  395  sudo add-apt-repository ppa:graphics-drivers/ppa
+  396  sudo -i
+  397  history
+  398  youtube-dl https://youtu.be/9i1Ri8kPoec
+  399  youtube-dl https://youtu.be/bqP-CVhtQfc
+  400  sudo youtube-dl -U
+  401  sudo apt-get install pip
+  402  sudo apt-get install python-pip
+  403  pip install --upgrade youtube-dl
+  404  sudo youtube-dl -U
+  405  sudo pip install --upgrade youtube-dl
+  406  youtube-dl https://youtu.be/bbDXYjtOhuA
+  407  youtube-dl --version
+  408  sudo apt-get update
+  409  locate youtube-dl
+  410  sudo pip install --upgrade youtube-dl
+  411  youtube-dl -U
+  412  sudo youtube-dl -U
+  413  sudo pip install --upgrade youtube_dl
+  414  youtube-dl
+  415  youtube-dl --version
+  416  sudo wget https://yt-dl.org/downloads/latest/youtube-dl.sig -O youtube-dl.sig
+  417  gpg --verify youtube-dl.sig /usr/local/bin/youtube-dl
+  418  cd
+  419  ls
+  420  gpg --verify youtube-dl.sig /usr/local/bin/youtube-dl
+  421  cp youtube-dl.sig
+  422  cp youtube-dl.sig /usr/local/bin/youtube-dl
+  423  sudo cp youtube-dl.sig /usr/local/bin/youtube-dl
+  424  cd /usr/local/bin
+  425  youtube-dl
+  426  cd youtube-dl
+  427  ls
+  428  gpg --verify youtube-dl.sig /usr/local/bin/youtube-dl
+  429  cd
+  430  gpg --verify youtube-dl.sig /usr/local/bin/youtube-dl
+  431  sudo wget https://yt-dl.org/downloads/latest/youtube-dl.sig -O youtube-dl.sig | apt-key add -
+  432  gpg --verify youtube-dl.sig /usr/local/bin/youtube-dl
+  433  sudo gpg --verify youtube-dl.sig /usr/local/bin/youtube-dl
+  434  rm youtube-dl.sig
+  435  du -h ./* |& tee -a output.txt
+  436  du -h ./* |& tee output.txt
+  437  script day191011
+  438  ls
+  439  cat day191011
+  440  cat day191011.txt
+  441  script day191011.txt
+  442  cat day191011.txt
+  443  nano day191011.txt
+  444  gedit day191011.txt
+  445  ls
+  446  Pacific/
+  447  POST
+  448  script --help
+  449  script -V
+  450  sudo apt-get install spotify
+  451  snap install spotify
+  452  sudo autoremove
+  453  sudo apt autoremove
+  454  history
+  455  ls
+  456  cd Documents/
+  457  ls
+  458  mv VLSI\ Lab\ / VLSI\ lab
+  459  ls
+  460  c
+  461  sudo apt autoremove
+  462  sudo apt-get install tomcat
+  463  ls
+  464  cd Pacific/
+  465  cd Softwares/Arduino/
+  466  ls
+  467  cd arduino-1.8.10/
+  468  ./install.sh
+  469  ls
+  470  sudo ./install.sh
+  471  ls -l /dev/ttyACM
+  472  ls -l /dev/ttyACM*
+  473  cd
+  474  ls -l /dev/ttyACM*
+  475  sudo usermod -a -G dialout qarthik
+  476  sudo chmod a+rw /dev/ttyACM0
+  477  ls -l /dev/ttyACM*
+  478  sudo usermod -a -G dialout qarthik
+  479  Arduino: 1.8.10 (Linux), Board: "Arduino/Genuino Uno"
+  480  Sketch uses 924 bytes (2%) of program storage space. Maximum is 32256 bytes.
+  481  Global variables use 9 bytes (0%) of dynamic memory, leaving 2039 bytes for local variables. Maximum is 2048 bytes.
+  482  avrdude: ser_open(): can't open device "/dev/ttyACM0": Permission denied
+  483  Problem uploading to board.  See http://www.arduino.cc/en/Guide/Troubleshooting#upload for suggestions.
+  484  This report would have more information with
+  485  "Show verbose output during compilation"
+  486  option enabled in File -> Preferences.
+  487  ls -l /dev/ttyACM*
+  488  sudo usermod -a -G dialout qarthik
+  489  ./eagle run
+  490  sudo add-apt-repository --yes ppa:js-reynaud/kicad-5.1
+  491  cd
+  492  ls
+  493  cd EAGLE/.eagle run
+  494  cd EAGLE/
+  495  cd
+  496  .eagle run\
+  497  .eagle run
+  498  cd Pacific/Softwares/Eagle\ CAD/
+  499  ls
+  500  /.eagle run
+  501  .eagle run
+  502  eagle-9.5.2/
+  503  eagle-9.5.2/.eagle run
+  504  ./eagle run
+  505  eagle-9.5.2/./eagle run
+  506  .eagle run
+  507  ./eagle run
+  508  sudo add-apt-repository --yes ppa:js-reynaud/kicad-5.1
+  509  sudo apt update
+  510  sudo apt install --install-recommends kicad
+  511  # If you want demo projects
+  512  sudo apt install kicad-demo
+  513  disassemble main
+  514  man dissassemble
+  515  man disassemble
+  516  man display
+  517  man *dis
+  518  look *dis
+  519  man *
+  520  man disassemble
+  521  disassemble Arduino main
+  522  man
+  523  arduino
+  524  kicad
+  525  eagle
+  526  eaglecad
+  527  eagleCAD
+  528  EagleCAD
+  529  cd Pacific/Softwares/Eagle\ CAD/eagle-9.5.2/
+  530  ./eagle run
+  531  man app
+  532  look app
+  533  man VLS
+  534  man VLC
+  535  man yt
+  536  look yt
+  537  look youtube
+  538  man ytl
+  539  ytl
+  540  python
+  541  cd
+  542  python
+  543  curl -R -O http://www.lua.org/ftp/lua-5.3.5.tar.gz
+  544  app/includes/user_config.h
+  545  cd
+  546  sudo apt install git python-serial esptool openjdk-14-jre-headless
+  547  esptool flash_id
+  548  sudo apt install git python-serial esptool openjdk-14-jre-headless
+  549  sudo apt-get lua
+  550  sudo apt-get install ssh
+  551  youtubedl
+  552  ./setup.py run
+  553  sudo ./setup.py run
+  554  ./Makefile run
+  555  sudo ./Makefile run
+  556  cd
+  557  sudo snap install --classic code
+  558  MakFile./ run
+  559  MakeFile./ run
+  560  Makefile./ run
+  561  cp cp210x.ko to /lib/modules/<kernel-version>/kernel/drivers/usb/serial
+  562  lsblk -k
+  563  lsblk -kp
+  564  lsblk -p
+  565  unzip
+  566  zenity
+  567  zenity --help
+  568  sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl
+  569  sudo chmod a+rx /usr/local/bin/youtube-dl
+  570  sudo wget https://yt-dl.org/downloads/latest/youtube-dl.sig -O youtube-dl.sig
+  571  gpg --verify youtube-dl.sig /usr/local/bin/youtube-dl
+  572  rm youtube-dl.sig
+  573  youtube-dl -h
+  574  youtube-dl
+  575  sudo apt-get update
+  576  youtube-dl https://youtu.be/cNld-AHw-Wg
+  577  youtube-dl https://www.youtube.com/watch?v=cNld-AHw-Wg -f
+  578  youtube-dl -f https://www.youtube.com/watch?v=cNld-AHw-Wg
+  579  youtube-dl -f URL https://www.youtube.com/watch?v=cNld-AHw-Wg
+  580  youtube-dl -f URL https://youtu.be/cNld-AHw-Wg
+  581  youtube-dl -f -h URL https://youtu.be/cNld-AHw-Wg
+  582  youtube-dl -f -h -v https://youtu.be/cNld-AHw-Wg
+  583  youtube-dl -f -h https://youtu.be/cNld-AHw-Wg
+  584  youtube-dl https://youtu.be/cNld-AHw-Wg
+  585  sudo chmod a+rx /usr/local/bin/youtube-dl
+  586  python -v
+  587  echo "deb https://deb.etcher.io stable etcher" | sudo tee /etc/apt/sources.list.d/balena-etcher.list
+  588  sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 379CE192D401AB61
+  589  sudo apt-get update
+  590  sudo apt-get install balena-etcher-electron
+  591  ls
+  592  youtube-dl [OPTIONS] URL https://youtu.be/cNld-AHw-Wg
+  593  ytsearch:[OPTIONS] https://youtu.be/cNld-AHw-Wg
+  594  youtube-dl -h URL https://youtu.be/cNld-AHw-Wg
+  595  youtube-dl -f URL https://youtu.be/cNld-AHw-Wg
+  596  youtube-dl URL https://youtu.be/cNld-AHw-Wg
+  597  lsblk -p
+  598  unzip -p 2019-09-26-raspbian-buster.zip | sudo dd of=/dev/sdX bs=4M conv=fsync
+  599  unzip -p 2019-09-26-raspbian-buster.zip | sudo dd of=/dev/sdb1 bs=4M conv=fsync
+  600  unzip -p 2019-09-26-raspbian-buster.zip | sudo dd of=/dev/sdb1 bs=4M conv=fsync
+  601  ls
+  602  lsblk -p
+  603  ls
+  604  cd
+  605  ls
+  606  lsblk -p
+  607  ls
+  608  boot
+  609  cd boot
+  610  cd
+  611  ls
+  612  cd Pacific/
+  613  cd Softwares/RasberryPi/
+  614  ls
+  615  mv ssh.txt
+  616  ls
+  617  cd ssh.txt
+  618  ls
+  619  cat ssh.txt
+  620  cat>ssh.txt
+  621  ls
+  622  cat>ssh.txt
+  623  ls
+  624  cat ssh.txt
+  625  ipconfig
+  626  cat /var/lib/misc/dnsmasq.leases
+  627  sudo apt-get install putty
+  628  apt-get update
+  629  sudo apt-get install putty
+  630  sudo apt-get install putty --fix-missing
+  631  sudo nano /etc/X11/Xwrapper.config
+  632  cat /var/lib/misc/dnsmasq.leases
+  633  cd
+  634  ls
+  635  sudo cat /var/lib/misc/dnsmasq.leases
+  636  curl ipinfo.io
+  637  curl ipconfig
+  638  curl ipconfig.io
+  639  curl ipinfo.io -h
+  640  curl ipinfo.io -4
+  641  (curl ipinfo.io).content
+  642  (curl ipinfo.io).Content
+  643  curl ipinfo.io | ConvertFrom-Json
+  644  sudo cat /var/lib/misc/dnsmasq.leases
+  645  sudo apt-get install putty
+  646  cat /var/lib/misc/dnsmasq.leases
+  647  for i in {1..30}; do dig heystephenwood.com | grep time; done
+  648  $ for i in {1..30}; do echo heystephenwood.com;done | xargs -I^ -P10 dig ^ | grep time
+  649  sudo apt-get install -y dnsmasq  
+  650  sudo service dnsmasq stop   
+  651  cd /etc/dnsmasq.conf
+  652  cat /etc/dnsmasq.conf
+  653  curl "https://raw.github.com/stephen-mw/raspberrypi/master/roles/dnsmasq_server" | sudo sh
+  654  cat /etc/dnsmasq.conf
+  655  cat /lib/misc/dns.leases
+  656  cd
+  657  curl "https://raw.github.com/stephen-mw/raspberrypi/master/roles/dnsmasq_server" | sudo sh
+  658  sudo curl "https://raw.github.com/stephen-mw/raspberrypi/master/roles/dnsmasq_server" | sudo sh
+  659  lscpci
+  660  lspci
+  661  sudo apt-get update
+  662  sudo apt-get upgrade
+  663  sudo apt-get install linux-backports-modules-wireless-lucid-generic
+  664  lspci -nnk | grep -iA2 net
+  665  lspci
+  666  history
+  667  lsblk -p
+  668  sudo apt-get update
+  669  sudo apt-get upgrade
+  670  pactl -- set-sink-volume 0 150%
+  671  sudo -H gedit /etc/rc.local
+  672  wget -nc https://dl.winehq.org/wine-builds/winehq.key
+  673  echo $http_proxy
+  674  sudo nano /etc/apt/apt.conf
+  675  pactl -- set-sink-volume 0 200&
+  676  pactl -- set-sink-volume 0 150%
+  677  pactl -- set-sink-volume 0 120%
+  678  pactl -- set-sink-volume 0 150&
+  679  pactl --set-sink-volume 150%
+  680  pactl -- set-sink-volume 150%
+  681  pactl -- set-sink-volume 0 150%
+  682  curl ipconfig.me
+  683  ecd
+  684  cd
+  685  curl ifconfig.me
+  686  /sbin/ifconfig wlan0 | awk '/Mask:/{ print $4;} '
+  687  pactl -- set-sink-volume 0 150%
+  688  which git
+  689  $ sudo dnf install git-all
+  690  sudo apt install git-all
+  691  which git
+  692  pactl -- set-sink-volume 0 150%
+  693  lsusb
+  694  ping google.com
+  695  sudo apt-get install rtorrent
+  696  rtorrent
+  697  rm rtorrent
+  698  purge rtorrent
+  699  purge -h
+  700  rtorrent -h
+  701  sudo apt-get update
+  702  sudo apt-get updgrade
+  703  sudo apt-get upgrade
+  704  git -h
+  705  hit -v
+  706  sudo apt-get install git
+  707  sudo dnf install git-all
+  708  sudo apt-get install dnf
+  709  sudo dnf install git-all
+  710  sudo apt install git-all
+  711  ls
+  712  cd Pacific/Softwares/Utorrent\ extension/
+  713  ls
+  714  utorrent-server-alpha-v3_3/
+  715  ls
+  716  cd utorrent-server-alpha-v3_3/
+  717  ls
+  718  cd
+  719  clear
+  720  putty -v
+  721  pactl -- set-sink-volume 0 150%
+  722  sudo apt-get install devscripts equivs gdebi-core
+  723  ls
+  724  cd Home
+  725  cd <WoeUSB source tree directory, the folder that contains the `src` folder>
+  726  cd Public
+  727  ls
+  728  cd
+  729  cd snap
+  730  ls
+  731  cd code
+  732  ls
+  733  cd
+  734  cd Downloads
+  735  ls
+  736  cd
+  737  sudo add-apt-repository ppa:nilarimogard/webupd8
+  738  sudo apt-get update
+  739  sudo apt-get upgrade
+  740  sudo apt-get install woeusb
+  741  woeusb
+  742  woe-usb
+  743  which woe
+  744  sudo apt-get update
+  745  sudo apt-get upgrade
+  746  sudo apt install woeusb
+  747  woeusb
+  748  sudo apt update
+  749  pactl -- set-sink-volume 0 150%
+  750  h
+  751  help
+  752  python -h
+  753  python -v
+  754  help(random.randint)
+  755  help(random.randrange)
+  756  import random as rand
+  757  import random
+  758  python 3
+  759  python3
+  760  help(string)
+  761  playonlinux
+  762  rm -h
+  763  rm --h
+  764  rm playonlinux
+  765  rm --v
+  766  rm -v
+  767  vscode
+  768  exit
+  769  git
+  770  sudo apt-get git
+  771  sudo apt install git-all
+  772  git
+  773  git config --global user.name "ikarthikmb"
+  774  git config --global user.name
+  775  ls
+  776  cd Pacific/
+  777  ls
+  778  cd Learning/
+  779  ls
+  780  mv Github\ repos/ Github-repo
+  781  ls
+  782  cd Github-repo
+  783  ls
+  784  git config user.name
+  785  git config --global user.email "karthikmble@gmail.com"
+  786  git config --global user.email
+  787  ls
+  788  pwd
+  789  ps
+  790  vscode
+  791  visual studio code
+  792  -
+  793  ~
+  794  open visual studio code
+  795  cat testfile.txt
+  796  cd testfile.txt'
+  797  hello world
+  798  again
+  799  good to see you again
+  800  testfile.txt
+  801  ls
+  802  open testfile.txt
+  803  cat textfile.txt
+  804  nano textfile.txt
+  805  cat textfile.txt
+  806  ls
+  807  open textfile.txt
+  808  cd
+  809  cd Pacific/Learning/Github-repo/
+  810  ls
+  811  rm textfile.txt
+  812  ls
+  813  exit
+  814  history
