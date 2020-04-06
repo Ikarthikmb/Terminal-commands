@@ -1,0 +1,325 @@
+    1  sudo raspi-config
+    2  sudo apt-get update
+    3  sudo apt-get upgrade
+    4  vncserver
+    5  sudo raspi-config
+    6  whatis time
+    7  time
+    8  time -a
+    9  time -h
+   10  free -a
+   11  free
+   12  cd tf
+   13  pip3 install tensorflow
+   14  ls
+   15  pip3 install tensorflow-2.1.0-cp35-none-linux_armv7l.whl
+   16  sudo apt-get install libatlas-base-dev
+   17  sudo pip3 install pillow lxml jupyter matplotlib cython
+   18  sudo apt-get install python-tk
+   19  sudo apt-get install libjpeg-dev libtiff5-dev libjasper-dev libpng12-dev
+   20  sudo apt-get install libavcodec-dev libavformat-dev libswscale-dev libv4l-dev
+   21  sudo apt-get install libxvidcore-dev libx264-dev
+   22  sudo apt-get install qt4-dev-tools libatlas-base-dev
+   23  sudo pip3 install opencv-python
+   24  $ sudo apt-get install autoconf automake libtool curl python-dev
+   25  sudo apt-get install protobuf-compiler
+   26  protoc --version
+   27  ls
+   28  cd
+   29  mkdir tensorflow1
+   30  cd tensorflow1/
+   31  git clone --depth 1 https://github.com/tensorflow/models.git
+   32  sudo nano ~/.bashrc
+   33  echo $PYTHONPATH
+   34  sudo apt-get update
+   35  sudo apt-get dist-upgrade
+   36  cd tf
+   37  ls
+   38  wget https://github.com/lhelontra/tensorflow-on-arm/releases/download/v2.1.0/tensorflow-2.1.0-cp35-none-linux_armv7l.whl
+   39  ls
+   40  echo $PYTHONPATH
+   41  cd tensorflow1/models/research/object_detection/
+   42  protoc object_detection/protos/*.proto --python_out=.
+   43  cd ..
+   44  protoc object_detection/protos/*.proto --python_out=.
+   45  cd object_detection/
+   46  wget http://download.tensorflow.org/models/object_detection/ssdlite_mobilenet_v2_coco_2018_05_09.tar.gz
+   47  tar -xzvf ssdlite_mobilenet_v2_coco_2018_05_09.tar.gz
+   48  protoc object_detection/protos/*.proto --python_out=.
+   49  sudo raspi-config
+   50  ls
+   51  pip show tensorflow
+   52  pip3 show tensorflow
+   53  cd tensorflow1/models/research/object_detection/
+   54  wget https://raw.githubusercontent.com/EdjeElectronics/TensorFlow-Object-Detection-on-the-Raspberry-Pi/master/Object_detection_picamera.py
+   55  ls
+   56  python3 Object_detection_picamera.py
+   57  python bject_detection_picamera.py
+   58  python Object_detection_picamera.py
+   59  nano Object_detection_picamera.py
+   60  python3 Object_detection_picamera.py
+   61  python Object_detection_picamera.py
+   62  pip show tensorflow
+   63  sudo find / -type f -name ‘atom.so*’ /usr/lib/arm-linux-gnueabihf/libatomic.so.1.2.0
+   64  pip install opencv-contrib-python==4.1.0.25
+   65  sudo apt-get install python-opencv
+   66  sudo pip install tensorflow
+   67  pip3 install tensorflow
+   68  sudo pip install tensorflow
+   69  sudo apt-get update
+   70  sudo apt-get upgrade
+   71  cd tensorflow1/models/research/object_detection/
+   72  python Object_detection_picamera.py
+   73  cd tensorflow1/models/research/object_detection/
+   74  python Object_detection_picamera.py
+   75  cd
+   76  cd tf/
+   77  ls
+   78  sudo pip3 install tensorflow
+   79  vncserver
+   80  sudo apt update
+   81  sudo apt full-upgrade
+   82  sudo raspi-config
+   83  ls
+   84  ls -a
+   85  ./camera.sh
+   86  nano camera.sh
+   87  cd Pictures/
+   88  mkdir PiCamera
+   89  cd
+   90  chmod +x camera.sh
+   91  ./cameera.sh
+   92  ./camera.sh
+   93  pip3 install https://dl.google.com/coral/python/tflite_runtime-2.1.0.post1-cp37-cp37m-linux_armv7l.whl
+   94  ls
+   95  cd tf2
+   96  mkdir tfl2
+   97  cd tfl2/
+   98  git clone https://github.com/tensorflow/examples --depth 1
+   99  cd examples/lite/examples/image_classification/raspberry_pi
+  100  ls
+  101  bash download.sh /tmp
+  102  python3 detect_picamera.py --model /tmp/mobilenet_v1_1.0_224_quant.tflite --labels /tmp/labels_mobilenet_quant_v1_224.txt
+  103  ls
+  104  python3 classify_picamera.py   --model /tmp/mobilenet_v1_1.0_224_quant.tflite   --labels /tmp/labels_mobilenet_quant_v1_224.txt
+  105  nano classify_picamera.py
+  106  python3 classify_picamera.py   --model /tmp/mobilenet_v1_1.0_224_quant.tflite   --labels /tmp/labels_mobilenet_quant_v1_224.txt
+  107  nano classify_picamera.py
+  108  python3 classify_picamera.py   --model /tmp/mobilenet_v1_1.0_224_quant.tflite   --labels /tmp/labels_mobilenet_quant_v1_224.txt
+  109  nano classify_picamera.py
+  110  python3 classify_picamera.py   --model /tmp/mobilenet_v1_1.0_224_quant.tflite   --labels /tmp/labels_mobilenet_quant_v1_224.txt
+  111  cd tfl2/examples/lite/examples/image_classification/raspberry_pi/
+  112  python3 classify_picamera.py   --model /tmp/mobilenet_v1_1.0_224_quant.tflite   --labels /tmp/labels_mobilenet_quant_v1_224.txt
+  113  bash download.sh /tmp
+  114  python3 classify_picamera.py   --model /tmp/mobilenet_v1_1.0_224_quant.tflite   --labels /tmp/labels_mobilenet_quant_v1_224.txt
+  115  nano classify_picamera.py
+  116  python3 classify_picamera.py   --model /tmp/mobilenet_v1_1.0_224_quant.tflite   --labels /tmp/labels_mobilenet_quant_v1_224.txt
+  117  cd ..
+  118  cd object_detection/raspberry_pi/
+  119  ls
+  120  bash download.sh /tmp
+  121  python detect_picamera.py
+  122  pip3 install https://dl.google.com/coral/python/tflite_runtime-2.1.0.post1-cp37-cp37m-linux_armv7l.whl
+  123  python detect_picamera.py
+  124  python3 detect_picamera.py   --model /tmp/detect.tflite   --labels /tmp/coco_labels.txt
+  125  vncserver
+  126  ./camera.sh
+  127  ls
+  128  crontab -e
+  129  ls *.jpg > stills.txt
+  130  ls
+  131  sudo apt install libav-tools
+  132  avconv -r 10 -i image%04d.jpg -r 10 -vcodec libx264 -vf scale=1280:720 timelapse.mp4
+  133  sudo apt-get install imagemagick -y
+  134  mkdir timelapsef
+  135  cd timelapsef/
+  136  cd
+  137  nano timelapse.py
+  138  python timelapse.py
+  139  nano timelapse.py
+  140  python timelapse.py
+  141  nano timelapse.py
+  142  mv timelapse.py timelapsef
+  143  ls
+  144  cd timelapsef/
+  145  ls
+  146  python timelapse.py
+  147  vncserver
+  148  ls -a
+  149  nano mcp3008.py
+  150  pip show mcp3008
+  151  python mcp3008.py
+  152  python
+  153  nano mcp3008.py
+  154  nano moist_final.py
+  155  python moist_final.py
+  156  ls
+  157  nano moist_final.py
+  158  nano moist.pkl
+  159  ls
+  160  python moist_final.py
+  161  nano moist.pkl
+  162  nano moist_final.py
+  163  cp moist_final.py moisture_final.py
+  164  ls
+  165  nano moisture_final.py
+  166  python moisture_final.py
+  167  nano moisture_final.py
+  168  python moisture_final.py
+  169  nano moisture_final.py
+  170  python moisture_final.py
+  171  nano moisture_final.py
+  172  python moisture_final.py
+  173  nano moisture_final.py
+  174  python moisture_final.py
+  175  nano moisture_final.py
+  176  python moisture_final.py
+  177  nano moisture_final.py
+  178  python moisture_final.py
+  179  cd
+  180  sudo pip install controlmypi
+  181  ls
+  182  py-spidev --version
+  183  cd py-spidev/
+  184  ls
+  185  nano README.md
+  186  cd
+  187  sudo pip install adafruit-mcp3008
+  188  ls
+  189  cd libo/
+  190  ls
+  191  git clone https://github.com/adafruit/Adafruit_Python_MCP3008.git
+  192  cd Adafruit_Python_MCP3008/examples/
+  193  ls
+  194  python simpletest.py
+  195  nano simpletest.py
+  196  python simpletest.py
+  197  nano simpletest.py
+  198  python simpletest.py
+  199  nano simpletest.py
+  200  python simpletest.py
+  201  nano simpletest.py
+  202  python simpletest.py
+  203  nano simpletest.py
+  204  vncviewer
+  205  sncserver
+  206  ncserver
+  207  vncserver
+  208  sudo poweroff
+  209  ls
+  210  cd groot/
+  211  cd mspy/tutorials/moisture/
+  212  ls
+  213  nano moisture_final.py
+  214  nano moist_final.py
+  215  cd pi-house/soil-moist/
+  216  ls
+  217  nano moist-soil.py
+  218  python moist-soil.py
+  219  nano moist-soil.py
+  220  python moist-soil.py
+  221  nano moist-soil.py
+  222  python moist-soil.py
+  223  nano moist-soil.py
+  224  python moist-soil.py
+  225  nano moist-soil.py
+  226  python moist-soil.py
+  227  nano moist-soil.py
+  228  python moist-soil.py
+  229  nano moist-soil.py
+  230  python moist-soil.py
+  231  nano moist-soil.py
+  232  python moist-soil.py
+  233  nano moist-soil.py
+  234  python moist-soil.py
+  235  nano moist-soil.py
+  236  python moist-soil.py
+  237  nano moist-soil.py
+  238  python moist-soil.py
+  239  nano moist-soil.py
+  240  python moist-soil.py
+  241  nano moist-soil.py
+  242  python moist-soil.py
+  243  nano moist-soil.py
+  244  python moist-soil.py
+  245  vncserver
+  246  cd pi-house/basic-ex/
+  247  python led.py
+  248  cp led.py
+  249  cp led.py led2.py
+  250  nano led2.py
+  251  cp led.py led2.py
+  252  nano led2.py
+  253  python led2.py
+  254  nano led2.py
+  255  python led2.py
+  256  nano led2.py
+  257  python led2.py
+  258  nano led2.py
+  259  python led2.py
+  260  nano led2.py
+  261  python led2.py \
+  262  pinout
+  263  cd pi-house/basic-ex/
+  264  ls
+  265  nano measure.py
+  266  python measure.py
+  267  ls
+  268  pwd
+  269  ./camera.sh
+  270  sudo raspi-config
+  271  vncserver
+  272  ls
+  273  ./camera.sh
+  274  nano camera.sh
+  275  python
+  276  ./camera.sh
+  277  cd pi-house/basic-ex/
+  278  ls -a
+  279  mkdir id-measured
+  280  python takpic.py
+  281  cd pi-house/basic-ex/
+  282  mv media ../
+  283  ls
+  284  mv measure.py ../
+  285  ls
+  286  cd
+  287  ls
+  288  cd ../
+  289  ls
+  290  ls -a
+  291  cd pi/
+  292  ls
+  293  mkdir media
+  294  ls
+  295  nano measure.py
+  296  python measure.py
+  297  ls
+  298  wget https://raw.github.com/pageauc/pitimolo/master/source/pi-timolo-install.sh
+  299  chmod +x pi-timolo-install.sh
+  300  ./pi-timolo-install.sh
+  301  ls -a
+  302  wget https://raw.github.com/pageauc/pitimolo/master/source/pi-timolo-install.sh
+  303  curl -L https://raw.github.com/pageauc/pi-timolo/master/source/pi-timolo-install.sh | bash
+  304  ls
+  305  cd pi-timolo/
+  306  ./pi-timolo.py
+  307  cd
+  308  ./camera.sh
+  309  sudo apt-get install update
+  310  sudo apt-get install upgrade
+  311  vncserver
+  312  cd pi-timolo/
+  313  ls
+  314  ./pi-timolo.py
+  315  nano user_motion_code.py
+  316  ./pi-timolo.py
+  317  nano user_motion_code.py
+  318  p user_motion_code.py user_motion_code-copy.py
+  319  cp user_motion_code.py user_motion_code-copy.py
+  320  ./pi-timolo.py
+  321  nano user_motion_code.py
+  322  ./pi-timolo.py
+  323  ./webserver.py
+  324  vncserver
+  325  history
